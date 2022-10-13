@@ -3,6 +3,9 @@ on:
   release:
     types:
       - created
+    tags:
+      - 'v*'
+
 
 jobs:
   publish_on_linux:
